@@ -23,6 +23,9 @@
   .logo{font-size:2.3rem;font-weight:800;color:var(--blau);letter-spacing:.5px;line-height:1.15}
   .logo span{color:var(--gruen)}
   .logo small{display:block;font-size:.95rem;font-weight:400;letter-spacing:4px;color:#666;text-transform:uppercase}
+  nav.menue{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+  nav.menue a{color:var(--blau);font-weight:700;text-decoration:none;font-size:1.05rem}
+  nav.menue a:hover{color:var(--gruen)}
 
   .btn{display:inline-block;background:var(--gruen);color:#fff;font-weight:700;
        padding:14px 30px;border-radius:6px;text-decoration:none;font-size:1.05rem;
@@ -73,6 +76,11 @@
 <header>
   <div class="wrap">
     <div class="logo">PIMP <span>MY</span> HAUS<small>Renovieren · Profitieren</small></div>
+    <nav class="menue">
+      <a href="index.html">Start</a>
+      <a href="referenzen.html">Referenzen</a>
+      <a href="#kontakt">Kontakt</a>
+    </nav>
     <a class="btn" href="mailto:info@pimpmyhaus.de?subject=Terminanfrage%20%E2%80%93%20Pimp%20My%20Haus&body=Hallo%20Herr%20Berger%2C%0A%0Aich%20interessiere%20mich%20f%C3%BCr%20Ihr%20Angebot%20und%20w%C3%BCrde%20gerne%20einen%20Termin%20vereinbaren.%0A%0AWorum%20geht%20es%3F%20(z.%20B.%20Renovierung%2C%20Sanierung%2C%20Kernsanierung%2C%20Sch%C3%B6nheitsreparatur%2C%20Hausverkauf)%3A%20%0A%0AWas%20soll%20gemacht%20werden%3F%20(kurze%20Beschreibung%20des%20Vorhabens)%3A%20%0A%0AMeine%20R%C3%BCckrufnummer%3A%20%0AMein%20Wunschtermin%3A%20%0A%0AViele%20Gr%C3%BC%C3%9Fe">Termin vereinbaren</a>
   </div>
 </header>
@@ -117,7 +125,7 @@
   </div>
 </section>
 
-<section class="kontakt">
+<section class="kontakt" id="kontakt">
   <div class="wrap">
     <h2>Kontakt</h2>
     <div class="grid">

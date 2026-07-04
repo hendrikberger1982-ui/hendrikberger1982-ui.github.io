@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Referenzen – Pimp My Haus | Vorher / Nachher</title>
+<meta name="description" content="Vorher-Nachher-Bilder unserer Baustellen: Renovierung, Sanierung und Kernsanierung von Pimp My Haus.">
+<style>
+  :root{--blau:#1F4E79;--blau-dunkel:#163A5C;--gruen:#3FA34D;--tuerkis:#2AA79B;--grau:#EFEFEF;--text:#333}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:'Segoe UI',Arial,Helvetica,sans-serif;color:var(--text);line-height:1.6}
+  .wrap{max-width:1000px;margin:0 auto;padding:0 20px}
+  header{background:#fff;border-bottom:4px solid var(--tuerkis);padding:18px 0}
+  header .wrap{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+  .logo{font-size:1.8rem;font-weight:800;color:var(--blau);line-height:1.15;text-decoration:none;display:block}
+  .logo span{color:var(--gruen)}
+  .logo small{display:block;font-size:.8rem;font-weight:400;letter-spacing:4px;color:#666;text-transform:uppercase}
+  nav a{color:var(--blau);font-weight:700;text-decoration:none;margin-left:22px;font-size:1.05rem}
+  nav a:hover,nav a.aktiv{color:var(--gruen)}
+  .hero{background:var(--blau);color:#fff;text-align:center;padding:45px 20px}
+  .hero h1{font-size:2rem}
+  main{padding:50px 0 70px}
+  .projekt{margin-bottom:55px}
+  .projekt h2{color:var(--blau);font-size:1.3rem;margin-bottom:16px;border-left:5px solid var(--tuerkis);padding-left:12px}
+  .paar{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .paar.drei{grid-template-columns:1fr 1fr 1fr}
+  @media(max-width:760px){.paar,.paar.drei{grid-template-columns:1fr}}
+  .zwischen figcaption{background:#e67e22}
+  figure{position:relative;background:var(--grau);border-radius:8px;overflow:hidden}
+  figure img{width:100%;height:320px;object-fit:cover;display:block}
+  .kombi figure img{height:auto;max-height:560px;object-fit:contain;background:var(--grau)}
+  .kombi figcaption{background:var(--blau)}
+  figcaption{position:absolute;top:12px;left:12px;padding:6px 16px;border-radius:6px;font-weight:800;color:#fff;font-size:.95rem;letter-spacing:1px;text-transform:uppercase}
+  .vorher figcaption{background:#c0392b}
+  .nachher figcaption{background:var(--gruen)}
+  .leer{text-align:center;color:#666;background:var(--grau);padding:40px 20px;border-radius:8px}
+  .cta{background:var(--blau);color:#fff;text-align:center;padding:45px 20px;border-radius:10px;margin-top:20px}
+  .cta p{margin-bottom:20px;font-size:1.1rem}
+  .btn{display:inline-block;background:var(--gruen);color:#fff;font-weight:700;padding:14px 30px;border-radius:6px;text-decoration:none;font-size:1.05rem}
+  .btn:hover{background:#348a41}
+  footer{background:var(--blau-dunkel);color:#fff;text-align:center;padding:18px 10px;font-size:.9rem}
+  footer a{color:#fff}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <a class="logo" href="index.html">PIMP <span>MY</span> HAUS<small>Renovieren · Profitieren</small></a>
+    <nav>
+      <a href="index.html">Start</a>
+      <a href="referenzen.html" class="aktiv">Referenzen</a>
+      <a href="index.html#kontakt">Kontakt</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero"><h1>Unsere Referenzen – Vorher / Nachher</h1></div>
+
+<main><div class="wrap">
+
+<p style="margin-bottom:40px">Bilder sagen mehr als Worte: Hier sehen Sie, was aus unseren Baustellen geworden ist – von der Schönheitsreparatur bis zur kompletten Kernsanierung.</p>
+
+<div id="galerie"></div>
+<p class="leer" id="hinweis">Unsere ersten Vorher-/Nachher-Bilder werden gerade aufbereitet – schauen Sie bald wieder vorbei!</p>
+
+<div class="cta">
+  <p><strong>Ihr Projekt könnte das nächste sein!</strong><br>Lassen Sie uns unverbindlich über Ihre Immobilie sprechen.</p>
+  <a class="btn" href="mailto:info@pimpmyhaus.de?subject=Terminanfrage%20%E2%80%93%20Pimp%20My%20Haus&body=Hallo%20Herr%20Berger%2C%0A%0Aich%20interessiere%20mich%20f%C3%BCr%20Ihr%20Angebot%20und%20w%C3%BCrde%20gerne%20einen%20Termin%20vereinbaren.%0A%0AWorum%20geht%20es%3F%20(z.%20B.%20Renovierung%2C%20Sanierung%2C%20Kernsanierung%2C%20Sch%C3%B6nheitsreparatur%2C%20Hausverkauf)%3A%20%0A%0AWas%20soll%20gemacht%20werden%3F%20(kurze%20Beschreibung%20des%20Vorhabens)%3A%20%0A%0AMeine%20R%C3%BCckrufnummer%3A%20%0AMein%20Wunschtermin%3A%20%0A%0AViele%20Gr%C3%BC%C3%9Fe">Termin vereinbaren</a>
+</div>
+
+</div></main>
+
+<footer>© 2026 Pimp My Haus · Inh. Hendrik Berger · Bussardweg 11 · 21391 Reppenstedt<br>
+<a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a></footer>
+
+<script>
+// Sucht automatisch Bildpaare im Ordner "bilder/":
+// vorher-1.jpg + nachher-1.jpg, vorher-2.jpg + nachher-2.jpg, ... (bis 30)
+// Optional: Projekttitel in der Liste unten eintragen.
+const titel = {
+  1: "Renovierung Schenefeld",
+  2: "Sanierung Bardowick"
+};
+const galerie = document.getElementById('galerie');
+const hinweis = document.getElementById('hinweis');
+let gefunden = 0;
+
+function ladePaar(n){
+  if(n > 30) return;
+  const vorher = new Image();
+  vorher.src = 'bilder/vorher-' + n + '.jpg';
+  vorher.onload = () => {
+    const nachher = new Image();
+    nachher.src = 'bilder/nachher-' + n + '.jpg';
+    nachher.onload = () => {
+      // Gibt es auch ein Zwischenschritt-Bild? Dann Dreier-Serie anzeigen.
+      const zwischen = new Image();
+      zwischen.src = 'bilder/zwischen-' + n + '.jpg';
+      const zeige = (mitZwischen) => {
+        gefunden++;
+        hinweis.style.display = 'none';
+        const name = titel[n] || 'Projekt ' + n;
+        const div = document.createElement('div');
+        div.className = 'projekt';
+        div.innerHTML = '<h2>' + name + '</h2>' +
+          '<div class="paar' + (mitZwischen ? ' drei' : '') + '">' +
+          '<figure class="vorher"><img src="bilder/vorher-' + n + '.jpg" alt="Vorher – ' + name + '" loading="lazy"><figcaption>Vorher</figcaption></figure>' +
+          (mitZwischen ? '<figure class="zwischen"><img src="bilder/zwischen-' + n + '.jpg" alt="Zwischenschritt – ' + name + '" loading="lazy"><figcaption>Während</figcaption></figure>' : '') +
+          '<figure class="nachher"><img src="bilder/nachher-' + n + '.jpg" alt="Nachher – ' + name + '" loading="lazy"><figcaption>Nachher</figcaption></figure>' +
+          '</div>';
+        galerie.appendChild(div);
+        ladePaar(n + 1);
+      };
+      zwischen.onload = () => zeige(true);
+      zwischen.onerror = () => zeige(false);
+    };
+    nachher.onerror = () => ladePaar(n + 1);
+  };
+  vorher.onerror = () => { /* Ende der Serie */ };
+}
+ladePaar(1);
+
+// Zusätzlich: Kombi-Bilder (Vorher & Nachher bereits in EINEM Bild):
+// bilder/kombi-1.jpg, bilder/kombi-2.jpg, ... (bis 30)
+const kombiTitel = {
+  1: "Heizkörper-Lackierung",
+  2: "Türen- und Zargentausch",
+  3: "Fensterbank-Aufarbeitung – Schönheitsreparatur"
+};
+function ladeKombi(n){
+  if(n > 30) return;
+  const img = new Image();
+  img.src = 'bilder/kombi-' + n + '.jpg';
+  img.onload = () => {
+    hinweis.style.display = 'none';
+    const div = document.createElement('div');
+    div.className = 'projekt kombi';
+    div.innerHTML = '<h2>' + (kombiTitel[n] ? kombiTitel[n] + ' ' : 'Projekt ') + '</h2>' +
+      '<figure><img src="bilder/kombi-' + n + '.jpg" alt="Vorher/Nachher-Vergleich" loading="lazy"><figcaption>Vorher / Nachher</figcaption></figure>';
+    galerie.appendChild(div);
+    ladeKombi(n + 1);
+  };
+  img.onerror = () => { /* Ende der Kombi-Serie */ };
+}
+ladeKombi(1);
+</script>
+
+</body>
+</html>
